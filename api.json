@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/charlie-no-face",
     "maintainers": [
       {
@@ -16,72 +16,132 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "charlie-no-face",
-    "name": "Charlie No-Face: The Green Man of Pennsylvania",
-    "aliases": [],
-    "category": "OF_URBAN_LEGEND—ONE_ROOTED_IN_VERIFIABLE_FACT_BUT_HEAVILY_EMBELLISHED_THROUGH_ORAL_TRADITION._FOLKLORISTS_CLASSIFY_SUCH_LEGENDS_AS:",
-    "subcategory": "perfectly, even though his reasons were entirely practical.",
+    "name": "Charlie No-Face",
+    "aliases": [
+      { "name": "The Green Man", "region": "Western Pennsylvania" },
+      { "name": "The Pittsburgh Green Man", "region": "Pittsburgh, Pennsylvania" },
+      { "name": "Raymond Robinson", "region": "Beaver County, Pennsylvania", "meaning": "the historical person whose life inspired the legend" }
+    ],
+    "category": "URBAN_LEGEND",
+    "subcategory": "Local urban legend rooted in a historical person",
     "tags": [
-      "folklore",
-      "mythology"
+      "urban-legend",
+      "pennsylvania",
+      "pittsburgh",
+      "beaver-county",
+      "historical-person",
+      "disability-history",
+      "20th-century"
     ],
     "status": "documented",
     "description": {
-      "summary": "Charlie No-Face, also known as \\\"The Green Man\\\" or the \\\"Pittsburgh Green Man,\\\" is one of America's most unique urban legends because, unlike most folklore, it is based on a real person: Raymond Robinson.",
-      "full": "Charlie No-Face, also known as \\\"The Green Man\\\" or the \\\"Pittsburgh Green Man,\\\" is one of America's most unique urban legends because, unlike most folklore, it is based on a real person: Raymond Robinson. This Pennsylvania legend tells of a hideously disfigured man who walked the roads near Pittsburgh at night, whose skin allegedly glowed green in the darkness. While the legend became embellished with supernatural elements over decades, the true story is both tragic and inspiring—a tale of a man who refused to let severe disfigurement destroy his humanity or spirit. Raymond Robinson lived from 1910 to 1985, spending most of his life in the Pittsburgh area. At age eight, he suffered catastrophic injuries from an electrical accident that left him without eyes, a nose, one arm, and with severe facial disfigurement. Despite these challenges, Robinson lived a full life, developing close relationships with his community and becoming a local legend—not for any malevolent actions, but simply for his nocturnal walks along rural roads."
+      "summary": "A western-Pennsylvania urban legend about a faceless or 'green-skinned' figure walking rural roads at night. The legend is rooted in the real life of Raymond Theodore Robinson (1910–1985), severely disfigured by a 1919 electrical accident, who walked the country roads of Beaver County after dark for decades.",
+      "full": "Charlie No-Face — also called the Green Man or the Pittsburgh Green Man — is one of western Pennsylvania's most widely circulated 20th-century urban legends. The legend tells of a faceless, sometimes glowing-green figure who walks the back roads at night, sometimes emerging from a tunnel; teenagers driving through rural Beaver, Butler, and Allegheny counties dared each other to find him. The legend has a documented historical source: Raymond Theodore Robinson, born October 29, 1910, in Beaver County, Pennsylvania. On June 18, 1919, when he was eight years old, Robinson climbed the Morado Bridge near Beaver Falls (which carried trolley wires of 1,200 and 22,000 volts) and was severely electrocuted; he survived but lost his eyes, his nose, and his right arm and was left with extensive facial disfigurement. Throughout adulthood Robinson lived quietly in Koppel, Pennsylvania, supporting himself by making leather wallets and doormats. To avoid the stares of strangers in daytime, he walked along State Route 351 and other quiet roads at night with a walking stick. Drivers and teenagers who encountered him built him into the local 'Green Man' / 'Charlie No-Face' legend, sometimes ascribing his condition to lightning, electrocution, or the supernatural. Robinson, by all family and neighbour accounts, was a friendly man who often stopped to talk with respectful visitors and accept cigarettes or beer in exchange for a photograph. He died on June 11, 1985, at the Beaver County Geriatric Center, almost 66 years to the day after his accident. The Piney Fork Tunnel south of Pittsburgh and the South Park Township 'Green Man' tunnel are folklore extensions; Robinson never lived in or emerged from any tunnel. Wyrdness records the figure as a documented urban legend whose entry should foreground respect for the real person at its centre."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Two parallel nicknames in mid-20th-c. western-Pennsylvania oral tradition: 'Charlie No-Face' (descriptive of the disfigurement) and 'The Green Man' (from accounts that his skin appeared greenish, attributed by legend to electrical injury).",
+      "meaning": "'Charlie No-Face' — descriptive nickname; 'Green Man' — color-claim folk-name.",
+      "first_use": "Both nicknames are attested in regional oral tradition by the mid-20th century."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "OF_URBAN_LEGEND—ONE_ROOTED_IN_VERIFIABLE_FACT_BUT_HEAVILY_EMBELLISHED_THROUGH_ORAL_TRADITION._FOLKLORISTS_CLASSIFY_SUCH_LEGENDS_AS:",
-      "type": "perfectly, even though his reasons were entirely practical.",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "URBAN_LEGEND",
+      "type": "Local legendary figure",
+      "subtype": "Rooted in a historical person",
+      "variant": "Western Pennsylvania"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hookman", "name": "The Hook Man", "relationship": "similar", "description": "Mid-20th-c. American teenage urban legend" },
+      { "id": "bunny-man", "name": "Bunny Man", "relationship": "similar", "description": "Virginia local urban legend, also reported as a tunnel/dark-road encounter" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Facial disfigurement", "description": "In the historical person's case: loss of eyes and nose following electrical injury", "frequency": "always" },
+        { "feature": "Missing arm", "description": "Robinson lost his right arm in the 1919 accident", "frequency": "always" },
+        { "feature": "Reportedly green-tinted skin", "description": "An exaggeration in folklore, possibly arising from the appearance of scar tissue under streetlight or in headlight beams", "frequency": "occasional" },
+        { "feature": "Solitary night-time walker", "description": "Walking stick; long, slow walks along quiet rural roads at night", "frequency": "always" }
+      ],
+      "morphology": "Human; the legend exaggerates the historical person's real injuries into supernatural features."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["rural state roads of Beaver County", "PA Route 351", "the Koppel area"],
+      "patterns": [
+        "Walked quiet rural roads at night to avoid the stares of strangers",
+        "Often accepted brief conversation, cigarettes, or photographs from respectful encounter parties",
+        "Did not approach or threaten anyone"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Western Pennsylvania, with the legend strongest in Beaver, Butler, and Allegheny counties; Robinson himself lived and walked principally in Beaver County.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Beaver County, PA", "Butler County, PA", "Allegheny County, PA", "Greater Pittsburgh"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Pennsylvania Route 351 (Koppel area)",
+        "location": {
+          "description": "PA-351 between Koppel and Big Beaver, Beaver County, PA",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 40.8358, "longitude": -80.3214 }
+        },
+        "peak_period": "1940s–1980s",
+        "notes": "Robinson's actual nocturnal walking route."
+      },
+      {
+        "name": "Piney Fork Tunnel ('Green Man Tunnel')",
+        "location": {
+          "description": "South Park Township, Allegheny County, PA",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 40.3038, "longitude": -79.9847 }
+        },
+        "peak_period": "1950s–present",
+        "notes": "Folklore extension of the legend; Robinson never lived in or emerged from any tunnel."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1919-06-18",
+        "circa": false,
+        "source": "Date of Robinson's electrical accident; the legend developed through subsequent decades."
+      },
+      "peak_activity_periods": [
+        { "period": "1950s–1970s", "description": "Peak of 'Green Man'/'Charlie No-Face' teenage encounter folklore in western Pennsylvania" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Mid-20th-century western-Pennsylvania teenage car culture, in which the encounter with Robinson at night was incorporated into regional dare-and-encounter folklore.",
+      "earliest_accounts": "1919 newspaper coverage of Robinson's accident; oral folklore from at least the 1940s onward.",
+      "folklore_connections": "Sits within the broader American 'lone night-time figure' tradition (the Hook Man, the Bunny Man, the Vanishing Hitchhiker)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910-10-29", "event": "Raymond Theodore Robinson born in Beaver County, Pennsylvania", "significance": "Birth of the historical person at the centre of the legend", "source": "Wikipedia, 'Raymond Robinson (Green Man)'" },
+      { "date": "1919-06-18", "event": "Robinson, age 8, is severely injured by electrocution while climbing the Morado Bridge near Beaver Falls", "significance": "Event that produced his lifelong disfigurement", "source": "Contemporary press; Wikipedia" },
+      { "date": "1985-06-11", "event": "Raymond Robinson dies at the Beaver County Geriatric Center, age 74", "significance": "End of the life behind the legend", "source": "Beaver County obituary records; Wikipedia" }
+    ],
+    "modern_era": "The legend continues to circulate as part of Pittsburgh-area regional folklore, but a major public-history shift since the 2000s has reframed it around the dignity of the real person. CBS Pittsburgh, Steel City History, and other regional outlets have published explainers correcting the supernatural mythology and centring Robinson's biography."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +152,90 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
-    "photographic": [],
+    "photographic": [
+      {
+        "id": "charlie-no-face-evidence-photographs",
+        "type": "photographs",
+        "name": "Photographs of Raymond Robinson",
+        "description": "A modest number of photographs of Robinson, taken by family and by people who encountered him on his night walks; widely reproduced in regional press and online articles.",
+        "status": "verified",
+        "analysis": "Photographs document Robinson's actual injuries and identity and are central to the modern public-history correction of the legend.",
+        "source": "Family archives; regional press (e.g. Pittsburgh Post-Gazette)"
+      }
+    ],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Documented historical person",
+        "description": "The legend is fully explained by the life and nocturnal walks of Raymond Robinson, severely disfigured in a 1919 electrical accident. There is no separate paranormal entity.",
+        "proponents": ["Beaver County local historians", "CBS Pittsburgh", "Steel City History"],
+        "evidence_cited": [
+          "1919 newspaper coverage of the accident",
+          "Family testimony",
+          "Photographs",
+          "Death record (1985)"
+        ]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Folkloric exaggeration of disability",
+        "description": "The 'Green Man' / 'Charlie No-Face' legend is treated by folklorists as an example of how local communities — particularly teenage car cultures of the mid-20th century — produced and sustained legendary frames around disabled people in their midst.",
+        "proponents": ["Folklorists working on American urban legend"],
+        "evidence_cited": ["Comparative dossiers of regional 'lone night walker' legends"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": ["Western-Pennsylvania teenage car-encounter folklore"],
+      "stories": [
+        "Drives along PA-351 to find 'Charlie'",
+        "Tunnel-encounter stories at Piney Fork and other sites"
+      ],
+      "beliefs": "The supernatural elements are widely recognised as fiction; the legend's persistence today is largely as a piece of regional Americana, often retold as a corrective biography of Raymond Robinson."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Pittsburgh Urban Legends (Brian Seibert, 2014, regional)",
+        "Numerous regional newspaper features and history-blog articles"
+      ],
+      "film_tv": [
+        "Local-history segments on KDKA-TV (CBS Pittsburgh) about the real Raymond Robinson"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Subject of regional ghost tours and Halloween features in Beaver County",
+        "Subject of the 'Forgotten Pittsburgh' history blogs"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Brian Seibert", "affiliation": "Regional historian", "contribution": "Compilation and verification of Robinson's biography and the legend", "period": "2010s–present" }
+    ],
+    "organizations": [
+      { "name": "Beaver County Historical Research and Landmarks Foundation", "url": "https://bchrlf.org", "focus": "Beaver County, PA local history including Raymond Robinson" }
+    ],
+    "ongoing_studies": "Local-history work continues to recentre the legend around Robinson as a real person rather than a supernatural figure."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-robinson", "type": "website", "title": "Raymond Robinson (Green Man)", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Raymond_Robinson_(Green_Man)", "accessed": "2026-05-07" },
+    { "id": "cbs-greenman", "type": "news", "title": "The True Story Behind the Legend of Western Pennsylvania's Green Man", "publication": "CBS Pittsburgh / KDKA-TV", "url": "https://www.cbsnews.com/pittsburgh/news/green-man-western-pennsylvania-legend/", "accessed": "2026-05-07" },
+    { "id": "steelcity-greenman", "type": "article", "title": "Charlie No-Face: Separating Pittsburgh Myth from the Man", "publication": "Steel City History", "date": "2025-06-07", "url": "https://steelcityhistory.com/2025/06/07/charlie-no-face-separating-pittsburgh-myth-from-the-man/", "accessed": "2026-05-07" }
+  ]
 }
